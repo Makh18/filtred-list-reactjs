@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+.container-users{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin: 20px;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+input{
+  border:3px solid blueviolet;
+  padding: 10px;
 }
